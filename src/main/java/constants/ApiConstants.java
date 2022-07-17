@@ -1,5 +1,5 @@
 package constants;
 
 public class ApiConstants {
-    public static final String STARSHIP_END_POINT_URL = "/api/starships/9/";
+    public static final String STARSHIP_GET_URL = "https://swapi.dev/api/starships/9/";
 }

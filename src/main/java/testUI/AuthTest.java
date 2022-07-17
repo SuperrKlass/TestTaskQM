@@ -1,7 +1,6 @@
 package testUI;
 
 import org.testng.annotations.*;
-import steps.AuthPageSteps;
 import testUI.authDataProvider.ValidAuthDataProvider;
 
 import static constants.Constants.*;

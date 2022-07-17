@@ -31,11 +31,6 @@ public class MainPageSteps extends BasePageSteps{
         return this;
     }
 
-//    public MainPageSteps clickSignInButtonMain() {
-//        mainPage.clickSignInButtonMain();
-//        return this;
-//    }
-
     public <T> T clickSignInButtonMain(WebDriver driver, Class<T> type) {
         mainPage.clickSignInButtonMain();
         return super.redirectToPage(driver, type);

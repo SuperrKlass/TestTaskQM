@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/JavaProjects/Test_Madness">
+        <classes>
+            <class name="testUI.AuthTest">
+                <methods>
+                    <include name="verifyPage"/>
+                    <include name="verifyUserGetErrorMessagesWithEmptyFields"/>
+                    <include name="verifyCyrillicNotAllowedInEmail"/>
+                    <include name="verifySpaceIsAllowedInEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
